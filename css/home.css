@@ -158,3 +158,23 @@ right:-20%;
 	background-color: #FF7326;
 	color:white;   
 }
+
+/*tab section*/
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,.nav-pills > li > a:hover {
+text-decoration: none;
+font-weight: bold;
+border-radius:0px;
+border-bottom-width: 4px;
+border-bottom-style: solid;
+border-bottom-color: #FF6600;
+    color: #FF7326 !important;
+  background-color: transparent !important;
+}
+.nav-pills > li > a{
+    border-radius:0px;
+}
+
+.nav-pills{
+	font-size:1.2em; 
+}
