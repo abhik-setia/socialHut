@@ -5,14 +5,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Social Hut</title>
 	<!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">
+    -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!--navbar-->
-  <nav class="navbar navbar-default" style="font-family: Montserrat">
+  <nav class="navbar navbar-default" style="font-family: Montserrat;">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
@@ -32,11 +35,11 @@
           
         </ul>
       	
-      	<div class="col-sm-3 col-md-2 col-xs-12 pull-right" style="margin-top: 0.9%;">
+      	<div class="col-sm-3 col-md-2 col-xs-12 pull-right" style="top: 10px;">
       	<button class="button" style="vertical-align:middle"><span>Login|Signup</span></button>
        		
       		</div>	
-       <div class="col-md-3 col-sm-2 col-xs-12 pull-right" style="margin-top: 0.6%">
+       <div class="col-md-3 col-sm-2 col-xs-12 pull-right" style="top:10px">
                    <form action="" class="search-form">
                        <div class="form-group has-feedback">
                    		<label for="search" class="sr-only">Search</label>
@@ -46,6 +49,7 @@
                    </form>
         </div>
        </div>
+
       <!--/.nav-collapse -->
     </div>
     <!--/.container-fluid -->
@@ -53,13 +57,68 @@
 
 <!--navbar-->
 
+	
+	<section id="Carousal_section">
+		
+	<!--carousal-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" style="top:-20px; ;width: 100%;height: 100%;">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="icons/1.jpg" alt="Chania" >
+	      <div class="carousel-caption">
+	        <h3>Chania</h3>
+	        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+	      </div>
+	    </div>
+
+	    <div class="item">
+	      <img src="icons/1.jpg" alt="Chania" >
+	      <div class="carousel-caption">
+	        <h3>Chania</h3>
+	        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+	      </div>
+	    </div>
+
+	    <div class="item">
+	      <img src="icons/1.jpg" alt="Flower" >
+	      <div class="carousel-caption">
+	        <h3>Flowers</h3>
+	        <p>Beatiful flowers in Kolymbari, Crete.</p>
+	      </div>
+	    </div>
+
+	    
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	
 
 
+	</section>
 	 <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-2.2.1.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/smooth.js"></script>
   
 </body>
