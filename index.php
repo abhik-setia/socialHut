@@ -10,6 +10,7 @@
       <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/home.css">
       <link rel="stylesheet" type="text/css" href="css/drop.css">
+      <link rel="stylesheet" type="text/css" href="css/hover.css">
       <!--<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>-->
       <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
    </head>
@@ -202,9 +203,38 @@
          <br><br><hr>
       </section>
       
-      <section>
-      	
+      <section id="caption_donations" style="font-family: 'Raleway', sans-serif;">
+      	<div class="row">
+      		<div class="row">
+      			<div class="container-fluid">
+      			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+      				<center><h1>CAPTION</h1></center>
+      				<hr>
+      				<img src="icons/caption.png" alt="" width="100%" height="100%">
+      			</div>
+      			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      				<center><h1>RECENT DONARS</h1></center>
+      				<hr>
+      				<div class="container-fluid" id="dlist" >
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				<?php include 'includes/donors_list.php' ?>
+      				</div>
+      				
+      			</div>
+
+      		</div>
+      		
+      	</div>
       </section>
+      <hr>
       <!-- JQuery -->
 
       <script type="text/javascript" src="js/jquery-2.2.1.js"></script>

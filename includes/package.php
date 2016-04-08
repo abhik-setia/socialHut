@@ -9,7 +9,14 @@
                </div>
                <div class="mycontainer-fluid mid_sec">
                   <div class="mycontainer">
-                     <img src="icons/pack.png" alt="">
+                  <div class="hover10 column">
+                     <div>
+                        <figure>
+                           <img src="icons/pack.png" alt="">
+                        </figure>
+                     </div>
+                  </div>
+                     
                   </div>
                   <div class="container-fluid">
                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="margin: 0 0">
@@ -43,7 +50,13 @@
                </div>
                <div class="mycontainer-fluid mid_sec">
                   <div class="mycontainer">
-                     <img src="icons/pack.png" alt="">
+                    <div class="hover10 column">
+                     <div>
+                        <figure>
+                           <img src="icons/pack.png" alt="">
+                        </figure>
+                     </div>
+                  </div>
                   </div>
                   <div class="container-fluid">
                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="margin: 0 0">
@@ -77,7 +90,14 @@
                </div>
                <div class="mycontainer-fluid mid_sec">
                   <div class="mycontainer">
-                     <img src="icons/pack.png" alt="">
+                     <div class="hover10 column">
+                     <div>
+                        <figure>
+                           <img src="icons/pack.png" alt="">
+                        </figure>
+                        
+                     </div>
+                  </div>
                   </div>
                   <div class="container-fluid">
                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="margin: 0 0">
@@ -111,7 +131,13 @@
                </div>
                <div class="mycontainer-fluid mid_sec">
                   <div class="mycontainer">
-                     <img src="icons/pack.png" alt="">
+                     <div class="hover10 column">
+                     <div>
+                        <figure>
+                           <img src="icons/pack.png" alt="">
+                        </figure>
+                     </div>
+                  </div>
                   </div>
                   <div class="container-fluid">
                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="margin: 0 0">
