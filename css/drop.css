@@ -165,6 +165,7 @@
 
 .btn-select.btn-warning .btn-select-value {
     background-color: #FF7326;
+
    //border: #FF7326 1px solid;
 }
 
@@ -184,6 +185,7 @@
 }
 .btn-warning{
     background-color: #FF7326;
+    border-color:#fff;
     //border: 2px solid transparent;
 }
 .btn-select.btn-danger ul {

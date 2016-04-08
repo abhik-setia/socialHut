@@ -198,7 +198,7 @@
          <?php include 'includes/package.php';?>
          <?php include 'includes/package.php';?>
          
-         <center><button type="button" class="btn btn-default">SHOW MORE<span class="glyphicon glyphicon-chevron-right"></span></button></center>
+         <center><button type="button" class="btn btn-default shadow">SHOW MORE<span class="glyphicon glyphicon-chevron-right"></span></button></center>
          <br><br><hr>
       </section>
       

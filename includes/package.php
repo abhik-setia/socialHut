@@ -1,8 +1,9 @@
 <div class="row">
    <div class="row">
       <div class="container-fluid" style="margin: 0 1%">
-         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-            <div class="container-fluid cards" id="card1" style="margin: 0;padding: 0">
+         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+            <div class="shadow">
+            <div class="container-fluid cards " id="card1" style="margin: 0;padding: 0">
                <div class=" container top_sec" style="border-bottom: 5px solid green; " >
                   <h3>Children</h3>
                </div>
@@ -29,10 +30,13 @@
                      </button>
                   </div>
                </div>
+                </div>
                <hr>
             </div>
+
          </div>
          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+         <div class="shadow">
             <div class="container-fluid cards" id="card1" style="margin: 0;padding: 0">
                <div class=" container top_sec" style="border-bottom: 5px solid red; " >
                   <h3>Women</h3>
@@ -60,10 +64,13 @@
                      </button>
                   </div>
                </div>
+               </div>
                <hr>
+
             </div>
          </div>
          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+         <div class="shadow">
             <div class="container-fluid cards" id="card1" style="margin: 0;padding: 0">
                <div class=" container-fluid top_sec" style="border-bottom: 5px solid lightblue; " >
                   <h3>Animal</h3>
@@ -91,10 +98,13 @@
                      </button>
                   </div>
                </div>
+               </div>
                <hr>
+               
             </div>
          </div>
          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+         <div class="shadow">
             <div class="container-fluid cards" id="card1" style="margin: 0;padding: 0">
                <div class=" container top_sec" style="border-bottom: 5px solid yellow; " >
                   <h3>Senior citizens</h3>
@@ -122,7 +132,9 @@
                      </button>
                   </div>
                </div>
+               </div>
                <hr>
+               
             </div>
          </div>
       </div>
