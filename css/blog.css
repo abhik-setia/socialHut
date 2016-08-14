@@ -1,0 +1,236 @@
+#banner_blog,#banner_about_us,#about_us_banner {
+	width: 100%;
+	height: auto;
+	position:relative;
+	top:-1px;  
+}
+
+#banner_blog img,#banner_about_us img,#about_us_banner img{
+	width:100%;
+	height:100%;  
+}
+.blog_txt{
+	position: absolute; 
+	top: calc(50% - 24px); //24px is font size of H1 I assume 
+	left: 0;
+	text-align: center; 
+	width: 100%; 
+	font-weight:800;  
+	font-size:2.5em;
+	color: #fff; 
+}
+#blog_body,#FAQ_body{
+	background-color:#EFEEEC; 
+}
+.main_blog{
+	margin-top: 5%;
+}
+.main_blog .read_more{
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+.wrapper_likes{
+	display: flex;
+	font-family:Montserrat_Normal; 
+}
+.like_img img{
+	width: 30px;
+}
+.heading_blog{
+	font-size: 2em;
+	font-weight:800; 
+}
+.author{
+	font-weight:400;
+	font-size:0.9em;
+	opacity:0.9;  
+	font-family:Montserrat_Normal;  
+}
+.main_content{
+	font-family:Montserrat_Normal;
+	opacity:0.7;
+	font-size:1em;   
+}
+.about_us_content{
+	margin-top: 3%;
+
+}
+.bk_logo{
+		background:url("../icons/logo_bk_large.png");
+	background-size: contain;
+
+}
+.bk_logo img{
+	max-height:200px;
+	max-width: 200px; margin-top: 10%;
+	}
+#about_us_body{
+	background-color: #EFEEED;
+}
+.contact_header{
+	font-size:2.5em;
+	font-weight:800;
+	color:#fff;
+	    
+}
+.wrapper_footer{
+	margin-bottom:-5%;
+
+}
+.text_wrapper{
+	
+	position:relative;
+	top:-200px;
+	text-align: center; 
+}
+
+.contact_us>div>div>img{
+	margin-bottom:-11%; 
+}
+.contact_us{
+	z-index:-10; 
+}
+.mob_nos{
+	color:#fff;
+	font-family:Montserrat_Normal; 
+	display: flex; 
+	flex: 1;
+	font-weight:600;
+	font-size:1.4em;  
+}
+@media (min-width: 1500px) { 
+    /*zoom level-75%*/
+
+   }
+  @media (min-width:1200px ) and (max-width: 1450px) {
+   /*zoom level-150%*/
+ 
+  }
+@media (min-width:1000px ) and (max-width: 1200px) { 
+  /*zoom-level -175%*/
+  	.contact_us>div>div>img{
+	margin-bottom:-12%; 
+}
+.text_wrapper{
+	
+	position:relative;
+	top:-180px;
+	text-align: center; 
+}
+
+  }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  /*zoom level-200%*/
+  .contact_us>div>div>img{
+	margin-bottom:-13.3%; 
+}
+.text_wrapper{
+	
+	position:relative;
+	top:-140px;
+	text-align: center; 
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+/*zoom level-300%*/
+     }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /*zoom level -300 +*/
+  
+   }
+.tag_section button{
+	margin: 2% 0.5%;
+	color:grey;
+	border-radius:10px;  
+}
+.tag_section button:hover{
+	border-color:#00BACF;
+	color:#00BACF;
+	background-color: #fff; 
+}
+.tag_section{
+	padding: 15px 2%;
+}
+.tag_heading{
+	font-size:1.5em;
+	font-weight:800;  
+}
+.top_post_body p{
+	margin-bottom: 0;
+	margin-top:1%;
+	font-size: 0.9em;
+	font-family:Montserrat_Light;
+	cursor: pointer;
+	opacity:0.8;  
+	  
+}
+.top_post_body p:hover{
+color:#00BACF;
+	}
+.mob_tags ul li button:hover{
+	color: #00BACF;
+	background-color: #EFEEEC;
+		border-color: #00BACF;
+	
+}	
+.mob_tags ul li button{
+	border-color: lightgrey;
+	border-radius: 10px;
+	background-color: #EFEEEC;
+
+}	
+.top_post_body hr{
+	margin: 3% 0%;
+}
+.mob_tags ul{
+	list-style-type: none;
+}
+.mob_tags ul li{
+
+display:inline; 
+}
+.Question,.Heading_terms{
+	font-family: Montserrat_Normal;
+	font-weight:800;
+	font-size:1.1em;  
+}
+
+.answer,.details_terms,#terms_and_conditions ul li{
+	font-family: Montserrat_Light;
+	font-size:0.9em;
+	color:grey;
+	opacity:0.8;   
+}
+.txt_wrapper_faq{
+	margin-top:10%; 
+}
+.txt_faq_1{
+	font-family: Montserrat_Light;
+	font-size: 0.8em;
+	color:grey;
+	opacity: 0.7;
+	padding-bottom:7%;  
+	border-bottom:2px solid lightgrey; 
+}
+.txt_faq_2{
+	font-family: Montserrat_Light;
+	font-size: 1.1em;
+	
+}
+.mail_me_btn{
+	border:1px solid #FF7326;
+	color: #FF7326;
+	background-color: #EFEEEC;
+	width:60%; 
+}
+.mail_me_btn:hover{
+	background-color: #FF7326;
+	color: #fff;
+}

@@ -4,17 +4,20 @@ html,body{
 	margin:0;
 	padding:0;   
 	overflow-x: hidden;
-
 	font-family: 'Raleway', sans-serif;	
 }
-
 /*navbar css*/
 /**********************************
 Responsive navbar-brand image CSS
 - Remove navbar-brand padding for firefox bug workaround
 - add 100% height and width auto ... similar to how bootstrap img-responsive class works
 ***********************************/
-
+h2,h3{
+  font-weight:800; 
+}
+#dropdown_li li{
+font-weight:600; 
+}
 .navbar-brand {
   padding: 0px;
 }
@@ -22,6 +25,9 @@ Responsive navbar-brand image CSS
   height: 100%;
  // padding: 15px;
   width: auto;
+  margin-left:8.5%;
+  margin-right:15px;
+  margin-top:-1px;  
 }
 
 
@@ -91,13 +97,13 @@ body {
   position: absolute;
   top: -1px;
   right: -2px;
-  z-index: 2;
+  z-index: 1;
   display: block;
   width: 34px;
   height: 34px;
   line-height: 34px;
   text-align: center;
-  color: #3596e0;
+  color: grey;
   left: initial;
   font-size: 14px;
 }
@@ -109,7 +115,7 @@ body {
   display: inline-block;
   border-radius: 4px;
   background-color: #ffffff;
-  border: 2px solid orange;
+  border: 1px solid orange;
   color: orange;
   text-align: center;
   font-size: 1.1em;
@@ -147,7 +153,7 @@ body {
 }
 .carousel-inner img{
 	width:100%;
-	height:50%;  
+	height:100%;  
 }
 .carousel .item {
   height: 500px;
@@ -157,11 +163,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 600px;
+    min-height: 500px;
 }
 .carousel-caption{
 top:35%;
 right:-20%;
+}
+.carousal_btn:hover {
+background-color: #00B9CE;
+color:white; 
 }
 .carousel-caption button{
 	width:18%;
@@ -169,7 +179,14 @@ right:-20%;
 	background-color: #FF7326;
 	color:white;   
 }
-
+.carousel-caption p{
+  font-size: 1.7em;
+  opacity: 0.9;
+}
+.carousel-caption h1{
+  font-size: 3em;
+  font-weight:800; 
+}
 /*tab section*/
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover,.nav-pills > li > a:hover {
@@ -189,6 +206,28 @@ border-bottom-color: #FF6600;
 .nav-pills{
 	font-size:1.2em; 
 }
+#intro p{
+  opacity:0.5;
+  text-align: left;
+  font-weight:600;  
+}
+#intro h3{
+  font-weight:600; 
+}
+#Packages a h4{
+  padding:1.2%;
+  color: #000;  
+}
+#Packages a:hover{
+  text-decoration: none;
+}
+
+.Packages_content p{
+  opacity:0.8;
+  text-align: left;
+  font-weight:400;
+  font-size:0.9em; 
+}
 #Packages{
 background-color: #F4F5F7;
 }
@@ -196,11 +235,41 @@ background-color: #F4F5F7;
 	border:3px solid transparent;
 	border-radius:50%; 
 }
+#Packages h5 a{
+  text-decoration: none;
+  color: #FF7326;
+  font-weight: 600;
+   
+}
+#Packages h5 a:hover{
+  text-decoration: underline;
+  color: #FF7326;
+}
+.rs_val{
+  font-weight:800;
+  font-size: 20px;
+  color: #00B9CE ;
+  margin:0 auto;  
+
+}
+.amount_box{
+  width:100%;
+  //height: 100%;
+  border: 2px solid rgba(211,211,211,0.5); 
+   margin: 10% 12% 10% 0%;
+  padding:5%;
+  border-radius:3px;
+  display:flex;  
+}
 .shadow:hover{
   transition: ease-in-out all .4s; 
   -moz-transition: ease-in-out all .4s;
   -webkit-transition: ease-in-out all .4s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.more_btn:hover{
+background-color: #FF7326;
+color: #fff;
 }
 #card1{
 	//background-color: red;
@@ -243,6 +312,38 @@ background-color: #F4F5F7;
     max-width: 100%;
     width: auto;
 }
+.mycontainer p a{
+  color:#fff;
+  //text-align: center;
+  font-size:1.6em;
+  font-weight:600;
+  text-decoration:none; 
+  //display:none;  
+  opacity:0; 
+}
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /*opacity: 0;*/
+    display: none; /* comment this out for CSS hover */
+    /*transition: all 0.5s ease;*/
+}
+
+    .img-title h5 {
+        position: absolute;
+        color: #fff;
+        top: 20%;
+        width: 100%;
+        font-size:1.5em;
+        font-weight:bold;  
+        text-align: center;
+    }
+
+
 .ease_nav{
   border-bottom:1px solid #FF7326; 
 }
@@ -264,41 +365,239 @@ background-color: #F4F5F7;
   -moz-transition: ease-in-out all .4s;
   -webkit-transition: ease-in-out all .4s;
 }
+.donor_cap_text p{
+  font-weight:600;
+  opacity:0.8;
+  font-size:1.5em;   
+}
+#ngo_name{
+  font-size:0.9em; 
+}
+.donor_cap_text h5{
+  margin: 0;
+  font-size:1.1em; 
+  padding:0;
+  margin-top:-12px;
+  opacity:0.8;  
+}  
 
-  
 @media (min-width: 1500px) { 
+    /*zoom level-75%*/
+
   #dlist{
     height:600px;
     overflow:auto; 
   }
    }
-  @media (min-width:1200px ) and (max-width: 1450px) { 
+  @media (min-width:1200px ) and (max-width: 1450px) {
+   /*zoom level-150%*/
+ 
   #dlist{
     height:450px;
     overflow:auto; 
   }
-   } 
+
+  #Packages h5 {
+    font-size:12px; 
+  }
+  }
 @media (min-width:1000px ) and (max-width: 1200px) { 
+  /*zoom-level -175%*/
   #dlist{
     height:400px;
     overflow:auto; 
   }
-   } 
+  
+  }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1000px) {
+
+  /*zoom level-200%*/
 #dlist{
-    height:300px;
+    height:700px;
     overflow:auto;
-  } }
+  } 
+    
+
+.donor_cap_text p{
+  font-size:1.8em; 
+}
+
+
+.donor_cap_text h5{
+  margin: 0;
+  font-size:1.6em; 
+  padding:0;
+  margin-top:-12px;
+  opacity:0.8;  
+}
+#ngo_name{
+  font-size:1.5em; 
+}
+.Packages_content p{
+    font-size:1.5em; 
+   }
+   #Packages h5 a{
+    margin-top: 5%;
+   }
+   .ngo_name_package{
+  margin-top:-10%;
+ }
+
+}
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { #dlist{
+@media (max-width: 767px) { 
+/*zoom level-300%*/
+  #dlist{
     height:300px;
     overflow:auto;
-  }  }
+
+  } 
+ 
+  #foot_li_2{
+      display: inline-block;
+      margin: 2% 0% 0% 0%;
+      padding: 0;
+      width:100%; 
+      //float: right;
+    }
+    #foot_li_2 li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 1% 1% 0 1%;
+  color: lightgrey;
+    }
+     }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {#dlist{
+@media (max-width: 480px) {
+  /*zoom level -300 +*/
+  
+  #dlist{
     height:300px;
     overflow:auto;
-  }  }
+  } 
+
+   }
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #464646;}
+
+#foot_main{
+  width: 100%;
+  //height: 80px;
+  background-color: #464646;
+  margin:0;
+  bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  color:lightgrey;
+  padding:2% 0; 
+}
+  #foot_li{
+    display: inline-block;
+    margin: 4% 1% 0% 1%;
+ width:100%; 
+ margin-left:0%; 
+  }
+  #foot_li li{
+
+display: inline-block;
+text-decoration: none;
+margin: 1% 1% 0 1%;
+  }
+  #foot_li li a{
+    text-decoration: none;
+    color:lightgrey; 
+    font-size:1.1em;
+  }
+  #foot_li li a:hover{
+     transition: ease-out all .4s; 
+  -moz-transition: ease-out all .4s;
+  -webkit-transition: ease-out all .4s;
+    color:#fff; 
+    text-decoration: underline;
+  }
+#foot_li_2{
+    display: inline-block;
+    margin: 2% 0% 0% 0%;
+    padding: 0;
+    width:100%; 
+    float: right;
+  }
+  #foot_li_2 li{
+display: inline-block;
+text-decoration: none;
+margin: 1% 1% 0 1%;
+color: lightgrey;
+  }
+  #foot_li_2 img{
+    border-radius:50%;}
+
+   #foot_li_2 li a img:hover{
+  
+
+transition: ease-out all .4s; 
+  -moz-transition: ease-out all .4s;
+  -webkit-transition: ease-out all .4s;
+  background-color: #000;
+
+  }
+  #my_frame{
+    display:none; 
+    z-index:999;
+    opacity:0.97;
+    background-color:#fff;
+    position:fixed;    
+
+
+  }
+   .classname {
+      -webkit-animation-name: cssAnimation;
+      -webkit-animation-duration:0.8s;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: ease-out;
+      -webkit-animation-fill-mode: forwards;
+      }
+      @-webkit-keyframes cssAnimation {
+      from {
+      -webkit-transform: scale(0);
+      }
+      to {
+      -webkit-transform: scale(1);
+      }
+      }
+  #caption_donations h5 a{
+    color: #000;
+  }    
+ #caption_donations h5 a:hover{
+
+color: #000;
+ }
+ .ngo_name_package{
+  margin-top:-13%;
+  color: #FF7326;
+ }
+ h5>a{
+  color: #000;
+ }
+ @font-face {
+    font-family: Montserrat_semi;
+    src: url(../fonts/Montserrat-SemiBold.otf);
+}
+ @font-face {
+    font-family: Montserrat_normal;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: Montserrat_light;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+#404_page{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../img/404_page.jpg");
+  background-size: cover;
+}

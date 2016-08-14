@@ -1,0 +1,452 @@
+body,html{
+	width:100%;
+	height:100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;	  
+}
+
+.close_btn{
+  width:100%;
+  height:10%;
+}
+.close_btn img{
+  height:56%;
+  margin: 1% 0% 0% 2%;
+  border:1px solid transparent;
+  border-radius:55%;     
+}
+.close_btn img:hover{
+  background-color:lightgrey; 
+}
+/*.pic_bk_ngo{
+	width: 96.7%;
+	height:60px;
+	background-color:black;
+	position:absolute;
+	bottom: 0;
+	left: 18px; 
+	opacity: 0.7;
+}*/
+.pic_ngo_btn{
+	float:left; 
+	margin:1% 3%;
+	width:100%;
+
+}
+.pic_ngo_btn button{
+	margin: 0.7% 0.7%;
+	background-color: #222;
+	color:#fff; 
+	border-radius: 10px;
+}
+.pic_ngo_btn button:hover{
+	border-color: #44C9DA;
+	color: #44C9DA;
+	background-color: #222;
+}
+.about_ngo{
+	width: 100%;
+	height: 60%;
+	margin: 0;
+}
+.about_ngo img{
+	height: 100%;
+	width: 100%;
+	//border: 1px solid grey;
+	margin: 0px auto;
+	padding: 0px;
+
+}
+.about_ngo .panel-heading{
+	font-size: 2em;
+	font-weight: 600;
+}
+.about_ngo .panel-body{
+	height: 60%;
+}
+.rate_txt{
+font-family:Montserrat_light; 	
+font-weight:600;
+font-size:1.2em;
+opacity:0.4;
+margin-top:4%; 
+float:left;
+}
+.city_names{
+	padding-left: 0;
+}
+.city_names li{
+	display: inline;
+	font-size:0.9em;
+	font-weight:400;
+	opacity:0.7;   	
+}
+/* star rating css */
+
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 24px;
+  height: 25px;
+  width: 100px;
+  margin: 0% 0% 0% 0%;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+
+ } 
+  .star-ratings-css-top {
+    color: #F8D24B;
+    padding: 0;
+    position: absolute;
+    /*z-index: 1;*/
+    display: block;
+    width:0%; 
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .star-ratings-css-bottom {
+    padding: 0;
+    display: block;
+    z-index: 0;
+  }
+.my_markers{
+	font-size: 2em;
+	margin-left:7%;
+	margin-right:5%; 
+	color:#44C9DA;  
+}
+.ngo_details{
+	display:flex; 
+}
+.ngo_details p{
+	font-weight:400;
+	opacity:0.8;
+	font-size:0.9em;   
+}
+.panel-heading{
+	font-size:1.1em;
+	font-weight:600;
+	color:#000;   
+}
+.ngo_pack_person_img{
+width: 200px;
+}
+#ngo_overview_and_packages .tab-content p{
+	font-size: 1em;
+	font-weight:400;
+	opacity:0.8;  
+}
+#ngo_overview_and_packages .tab-content{
+	border:1px solid rgba(211,211,211,0.5);
+	border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+#ngo_overview_and_packages ul{
+//border: 2px solid lightgrey;
+//border-radius: 5px 5px 0 0;
+}
+#ngo_overview_and_packages .layer_out{
+//border: 2px solid lightgrey;
+//border: 2px solid rgba(211,211,211,0.5);
+//border-radius: 5px 5px 0 0;
+padding:1.3%;
+padding-bottom: 5%;
+padding-top: 0; 
+}
+#ngo_overview_and_packages .active_tab{
+border-top: 1px solid rgba(211,211,211,0.5);
+border-left: 1px solid rgba(211,211,211,0.5);
+border-right: 1px solid rgba(211,211,211,0.5);
+border-radius: 5px 5px 0 0;
+background-color:#fff; 
+}
+#ngo_overview_and_packages ul{
+	margin:0; 
+}
+#ngo_overview_and_packages li{
+padding: 0.7% 4%;
+background-color:rgba(211,211,211,0.2);
+border-radius: 5px 5px 0 0; 
+margin:0;
+width: 25%; 
+}
+#ngo_overview_and_packages li a{
+	font-size:0.9em;
+	font-weight: 600;
+	text-decoration: none;
+	border: none;
+	opacity:0.6;  
+}
+#ngo_overview_and_packages .tab-pane{
+	margin:3%;
+}
+#ngo_overview_and_packages span{
+	float:right;
+	margin-left:2%;
+
+}
+#ngo_overview_and_packages span{
+	float:right;
+	margin: 0 0.5%;
+	color:lightgrey; 
+}
+/*#ngo_overview_and_packages span img{
+	width:25px;
+	height: 25px;
+	border-radius:50%;
+	border: 1px solid lightgrey;
+}
+*/
+#ngo_overview_and_packages span:hover{
+color:grey;
+	 border: 2px solid grey;
+}
+#ngo_overview_and_packages .active_img{
+cursor:pointer;
+border: 2px solid rgba(211,211,211,0.7);
+border-radius:50%;
+padding:1%;  
+}
+#ngo_overview_and_packages .panel-heading{
+	padding:4%; 
+}
+.ngo_s_package{
+	font-size:1.4em;
+	font-weight: 600;
+	margin:0;
+	color:#000; 
+}
+.ngo_name_package{
+	font-size:1.2em;
+	color: #FF7326;
+	font-weight:600;
+	opacity:0.7;   
+}
+
+.rs_val{
+	margin:0% 3% 0% 3%;
+	font-size:1.8em;
+	font-family:Montserrat_semi;
+	font-weight:600;   
+}
+
+#ngo_overview_and_packages button{
+	color:#FF7326;
+	background-color:#fff;
+	margin-top: 3%; 
+	font-size: 0.9em;
+	font-weight:400;
+	width:90%;
+	border:1px solid #FF7326;    
+}
+
+#ngo_overview_and_packages button:hover{
+	background-color:#FF7326;
+	color: #fff; 
+	transition: ease-in-out all .4s; 
+  -moz-transition: ease-in-out all .4s;
+  -webkit-transition: ease-in-out all .4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.hear_from_donors{
+	margin:1%; 
+}
+#donors .top_donors .panel-heading{
+	padding:4%;
+	font-size:1.1em;
+	font-weight:600;
+	color:#000; 
+}
+.top_donors{
+	margin: 1%;
+}
+#donors .hear_from_donors .panel-heading{
+	padding:2%;
+	font-size:1.1em;
+	font-weight:600;
+	color:#000;    
+}
+#donors .hear_from_donors img{
+	width:70%;
+
+}
+#donors .hear_from_donors .person_name{
+	font-size:1.2em;
+	font-weight: 600;
+	margin-bottom: 0; 
+}
+#donors .hear_from_donors .person_comment{
+	font-size:0.9em;
+	font-weight: 400;
+	opacity:0.8;
+	margin-top:2%;   
+}
+#donors .hear_from_donors .star-ratings-css{
+	font-size: 16px;
+}
+.more_btn{
+	color:grey;
+	border: 1px solid rgba(211,211,211,1); 
+	border-radius: 10px;	   
+}
+.date{
+	font-size:1em;
+	font-weight: 400;
+	opacity:0.5;  
+}
+#see_all_btn{
+	width:7px; 
+}
+.donor_cap_text p{
+font-weight: 400;
+opacity: 1;
+font-size: 1.3em;
+}
+.amount_box{
+	border-radius:5px;
+}
+#rupee_img{
+	margin-top: 5%;
+}
+.share_icons a img{
+	border-radius:50%;
+}
+.share_icons a img:hover{
+		transition: ease-in-out all .4s; 
+	  -moz-transition: ease-in-out all .4s;
+	  -webkit-transition: ease-in-out all .4s;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.ngo_details_also p{
+	font-weight:800;
+	font-size: 1em;
+
+}
+.ngo_details_also>div .also_in{
+	padding: 0;
+	margin-left: 18%;
+}
+.share_icons a img{
+	width:100%;
+	height: 100%; 
+}
+#think_txt{
+	font-weight:600;
+    opacity:0.6;
+    text-align: center;
+    font-size:0.9em;
+}
+@media (min-width: 1500px) { 
+    /*zoom level-75%*/
+
+  
+   }
+  @media (min-width:1200px ) and (max-width: 1450px) {
+   /*zoom level-150%*/
+ 	/*#ngo_page_details .pic_bk_ngo{
+  	width:95.9%;
+  	left:17px; 
+  }*/
+  .ngo_pack_person_img{
+width: 150px;
+}
+.donor_cap_text{
+	padding:0;
+}
+.amount_div{
+	padding-left: 0;
+}
+/*#ngo_overview_and_packages .active_img{
+	padding:2%; 
+  }*/
+}
+@media (min-width:1000px ) and (max-width: 1200px) { 
+  /*zoom-level -175%*/
+  /*#ngo_page_details .pic_bk_ngo{
+  	width:94.8%; 
+  	left:16px; 
+  }*/
+ /* .ngo_pack_person_img{
+width: 150px;
+}*/
+#ngo_overview_and_packages button {
+	width: 60%;
+	}
+	.donor_cap_text{
+		padding:0;
+	}
+	.amount_div{
+		padding-left: 0;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  /*zoom level-200%  basically android version*/
+  /*#ngo_page_details .pic_bk_ngo{
+  	width:96.3%; 
+  }*/
+#ngo_page_details p{
+	font-size:1.5em; 
+   } 
+
+#ngo_s_package{
+	font-size:1.5em; 
+}
+#rupee_img{
+	margin-top: 2%;
+}
+.city_names li{
+	font-size: 1.5em;
+}
+.share_icons a img{
+	width:50%;
+	height:50%;    
+}
+.ngo_details_also>div .also_in{
+	padding: 0;
+	margin-left: 9%;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+/*zoom level 300%*/
+ /* #ngo_page_details .pic_bk_ngo{
+  	width:94%;
+  }*/
+  }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /*zoom level -300*/
+  
+}
+
+#NGO_Page .glyphicon-remove{
+	left:3%;
+	border: 2px solid #bbbbbb;
+	border-radius: 50%;
+	padding: 0.8%;
+	top:9%;
+	color: white;
+	background: #bbbbbb;
+	font-size:1.3em; 
+	position: relative;	
+	margin-top: 10px;
+}
+#NGO_Page .glyphicon-remove:hover{
+	background:#FF7326;
+	border:2px solid transparent;
+	    transition: ease-in-out all .2s; 
+	    -moz-transition: ease-in-out all .2s;
+	    -webkit-transition: ease-in-out all .2s;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

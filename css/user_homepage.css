@@ -1,0 +1,152 @@
+.badge-notify{
+   background:red;
+   position:relative;
+   top: -55px;
+   left:22px; 
+  }
+  .glyphicon-bell{
+  	font-size:20px; 
+  	top: 0px;
+  }
+.notification_sec{
+	padding: 0;
+	position:relative;
+	top:-10px;  
+}
+.notification_sec:hover .glyphicon-bell{
+	color: #FF7326;
+}
+#user_navbar_section .profile-image{
+
+	font-size:0.8em;
+	text-decoration: none;
+	color:#000000;
+	font-weight:600;   
+}
+#user_navbar_section .profile-image:hover{
+	text-decoration: underline;
+	color:grey; 
+}
+#user_navbar_section .profile-image img{
+	width:35px;
+	height: 100%; 
+}
+#user_navbar_section .dropdown-menu li a{
+	font-size:0.8em; 
+}
+
+.causes_sec .panel-body{
+	padding: 0;
+}
+.causes_sec .list-group{
+	padding: 0;
+	margin: 0;
+}
+.causes_sec li{
+	border-right: none;
+	margin: 0;
+
+	border-top: none;
+	border-bottom:1px solid rgba(211,211,211,0.6);
+	font-weight:800;
+	opacity:0.9; 
+	font-size:0.8em;   
+}/*
+.causes_sec li:hover{
+	background-color: lightgrey;
+}*/
+#feedback .well{
+	background-color: #fff;
+}
+#feedback_img{
+	width: auto;
+	height:190px;
+	position:relative; 
+	margin:0 17%;  
+}
+.wrapper_feedback{
+	text-align: center;
+	max-height:350px;
+	overflow:hidden; 
+
+}
+#feedback .event{
+	font-size:1.8em;
+	font-weight:800;  
+}
+#feedback .ngo_name{
+	color: #FF7326;
+}
+#feedback .msg_feedback{
+	font-size:0.9em;
+	font-weight:600;
+	opacity:0.5; 
+	text-align: left;
+	word-wrap: break-word;
+	padding:0% 2%;   
+}
+.main_f_img{
+	width: 100%;
+	cursor: pointer;	
+}
+.f_images {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.wrapper_sec_img div{
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	margin: 0;
+}
+#user_home #caption_donations{
+	background-color: #fff;
+}
+#user_home #feedback{
+	background-color: #EFEEEC;
+	padding-top: 4%;
+}
+#user_home #Packages{
+	background-color: #EFEEEC;
+	
+}
+.wrapper_feedback{
+	overflow-y:scroll;
+	right:-20px;   
+}
+#user_home .img_overlay{
+	width:100%;
+	height: 100%; 
+}
+.f_images:hover{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);	
+}
+.last_pic_count{
+	font-family:Montserrat_normal;
+	color: #fff;
+	position: relative;
+	top: -70px;
+
+}
+.last_pic_count::hover{
+	cursor: pointer;
+}
+.more_pics{
+	display: none;
+}
+.more_message{
+	position: absolute;
+	left: 75%;
+	bottom:23px; 
+}
+.more_message span:hover{
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	top:7px;
+}

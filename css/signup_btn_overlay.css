@@ -1,0 +1,129 @@
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.main_container_signup{
+    width: 55%;
+    background: #fff;
+    margin: 0 auto;
+    height: 450px;
+}
+.img_side_bar{
+    width:40%;
+    //background-image:url(" ../icons/busy_life.jpg");
+     overflow: hidden;
+    
+}
+.make_bk_img{
+     background-color: rgba(0,0,0, 0.6);
+     z-index: 999;
+     width: 22%;
+     height: 450px;
+     position: absolute;
+     top: 0;
+     text-align: center;
+}
+.sidebar_img_text{
+    position:absolute;
+    left: 35px;
+    top: 10%;
+    color:#fff;
+    font-weight: 600;
+    font-size:1.3em;
+    opacity: 1;
+    width:80%;
+    z-index: 999; 
+    word-wrap: break-word;  
+}
+.sign_up_btn{
+    position: relative;
+    top:140px;
+    margin:  0 auto;
+    background: none;
+    border:1px solid #FF7326;
+    color: #FF7326;
+    width:70%;
+    font-weight:600;
+    font-size: 1.1em;
+  
+}
+.login_form{
+    width:33%;
+    margin-left:22%; 
+    position: absolute;
+    top: 0; 
+    height: 450px;
+    overflow-x:hidden;
+}
+.login_form>div>a>span{
+    position: absolute;
+    left: 0;
+    padding:2%;
+}
+.login_txt{
+    position: absolute;
+    font-weight: 800;
+    font-size:1.2em;
+    left:7%;
+    width: 100%; 
+}
+.login_txt_inner{
+    left: 25%;
+    position:absolute; 
+}
+.login_form .glyphicon-menu-left{
+    font-size:15px;
+    border:2px solid rgba(211,211,211,0.7);
+    border-radius:50%;
+    margin: 2%;
+    color:grey;    
+}
+.login_form .glyphicon-menu-left:hover{
+    color: grey;
+    border-color: grey;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .closebtn {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+}
